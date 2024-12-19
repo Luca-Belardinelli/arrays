@@ -11,10 +11,10 @@ const teachers = [
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
 const fourthTeacher = teachers[3];
-console.log(teachers);
+console.log(fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-teachers.splice(5,1,'Patrick')
+teachers.splice(4,1,'Patrick')
 console.log(teachers);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
@@ -41,4 +41,12 @@ console.log(lewisIndex,teachers);
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+
+if (teachers.length === 0) {
+  const isTeachersEmpty = teachers.length;
+  console.log( isTeachersEmpty, "L'array è vuoto");
+  
+} else {
+  const isTeachersEmpty = teachers.length;
+  console.log( isTeachersEmpty , "L'array non è vuoto");
+}
