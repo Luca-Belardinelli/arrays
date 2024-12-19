@@ -47,6 +47,7 @@ if (teachers.length === 0) {
   console.log( isTeachersEmpty, "L'array è vuoto");
   
 } else {
+  (teachers.length != 0)
   const isTeachersEmpty = teachers.length;
   console.log( isTeachersEmpty , "L'array non è vuoto");
 }
