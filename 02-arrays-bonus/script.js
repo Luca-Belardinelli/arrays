@@ -29,7 +29,7 @@ console.log(reversedTeachers)
 
 // versione filtro
 
-// const longNames - teachers.filter((numberteacher) -> numberteacher.length >- 5);
+// const longNames = teachers.filter((numberteacher) => numberteacher.length >= 5);
 // console.log(longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
